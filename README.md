@@ -1,50 +1,27 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text-sticker.png" alt="reveal.js" width="500">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
+# Project overview
+This single page application (SPA) was created to improve the way coding is taught and learned, but it can be used for other topics as desired. I leveraged right and left arrow buttons for main topic navigation, while up and down arrow buttons are used for exploring a topic more deeply. The SPA supports various types of engaging media, including 2D and 3D images, audio recordings, and iframes. Animation is used sparingly to highlight important UI elements. Since the SPA is built on top of the RevealJS presentation framework, there is documentation that makes it possible to make changes to the content with only a basic understanding of HTML.
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free. Check out the live demo at [revealjs.com](https://revealjs.com/).
+# Unique ability to explore text line-by-line
+When I created this SPA, I wanted to take a unique approach to exploring and explaining code. I decided to walk the audience through each line of code, highlighting the exact part being explained. It was a challenge to keep the voice recording and code highlighting in sync, but once I got the program logic right, updating and adding to the content became easy.
 
-The framework comes with a powerful feature set including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX typesetting](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and an [extensive API](https://revealjs.com/api/).
+# Focus on education and user experience standards
+The SPA is purposefully designed for both mobile and desktop screens. The UI and UX were vetted by a formally educated UI/UX professional (Mariana Pulgarin). Furthermore, as an instructional designer by trade, I paid close attention to the educational merit and organization of the content to ensure it was pedagogically sound and effective.
 
----
+# Technical simplicity for easy hosting, maintainability, and modifications
+From a technical standpoint, this SPA consists of HTML, CSS, and JavaScript contained in a single folder that can be hosted almost anywhere and opened in any modern browser. Updating the content or styles is as simple as using a text editor to modify a single “index.html” file and some logically organized CSS.
 
-Want to create reveal.js presentation in a graphical editor? Try <https://slides.com>. It's made by the same people behind reveal.js.
+# Development lifecycle and best practices
+Being that I have kept this SPA as simple as possible, there is a standard and modern workflow for application development that provides the following benefits:
+- Faster onboarding for developers
+- Consistency across any hosting environment, including local, cloud, or on-premise
+- Version-control with Git
+- Issues reproduced and tracked easily
+- Detailed audit trail for all changes.
+- Reduced risk of unwanted changes and the ability to correct them before they go into production.
+- Changes can require code peer-review, approval, and tests before being deployed into the production environment.
+- Continuous integration and continuous deployment (CI/CD) is possible.
 
----
+# Conclusion
+This SPA represents a significant effort on my part to advance the way coding and other subjects can be taught and learned. It is an excellent starting point for clients who want a modern and advanced way to educate their audience on a product or skill. It has high UX and instructional design standards built-in, is based on well-documented and simple technology, and offers a development lifecycle that adheres to best practices.
 
-### Sponsors
-Hakim's open source work is supported by <a href="https://github.com/sponsors/hakimel">GitHub sponsors</a>. Special thanks to:
-<div align="center">
-  <table>
-    <td align="center">
-      <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=revealjs&utm_source=github">
-        <div>
-          <img src="https://user-images.githubusercontent.com/629429/151508669-efb4c3b3-8fe3-45eb-8e47-e9510b5f0af1.svg" width="290" alt="WorkOS">
-        </div>
-        <b>Your app, enterprise-ready.</b>
-        <div>
-          <sub>Start selling to enterprise customers with just a few lines of code. Add Single Sign-On (and more) in minutes instead of months.</sup>
-        </div>
-      </a>
-    </td>
-  </table>
-</div>
-
----
-
-### Getting started
-- 🚀 [Install reveal.js](https://revealjs.com/installation)
-- 👀 [View the demo presentation](https://revealjs.com/demo)
-- 📖 [Read the documentation](https://revealjs.com/markup/)
-- 🖌 [Try the visual editor for reveal.js at Slides.com](https://slides.com/)
-- 🎬 [Watch the reveal.js video course (paid)](https://revealjs.com/course)
-
---- 
-<div align="center">
-  MIT licensed | Copyright © 2011-2024 Hakim El Hattab, https://hakim.se
-</div>
+Hakim El Hattab is the creator of the open source reveal.js project from which my elearning platform is built. It would be remiss of me not to give him proper credit for his work. You can get more information about reveal.js, including documentation from here: <https://revealjs.com/markup/>. You can also create a reveal.js presentation using a graphical editor here: <https://slides.com>.
